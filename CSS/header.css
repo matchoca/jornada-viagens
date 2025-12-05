@@ -25,3 +25,7 @@ nav {
     width: 32px;
     height: 32px;
 }
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
