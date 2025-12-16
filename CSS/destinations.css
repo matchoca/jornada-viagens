@@ -1,6 +1,10 @@
+/* .destination {
+    margin: 44px auto;    
+} */
+
 .destination-cards {
   width: 312px;
-  margin: 32px auto;
+  margin: 0 auto;
 }
 
 .destination-cards .card {
