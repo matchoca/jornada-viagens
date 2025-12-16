@@ -33,7 +33,8 @@ body {
 }
 
 section {
-  padding-bottom: 88px;
+  padding: 0 24px 88px;
+  margin: 0 auto;
 }
 
 .section-title h2 {
