@@ -1,0 +1,68 @@
+.payment .content-container {
+    margin: 0 auto;
+}
+
+.payment .content-container .text-content h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.payment .content-container .text-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 1.5;
+  margin-top: 24px;
+}
+
+.payment .content-container .img-content {
+  display: grid;
+  width: 100%;
+  height: 460px;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.payment .content-container .img-content .bag {
+  background: url(../img/img-bag-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.payment .content-container .img-content .passport {
+  background: url(../img/img-passport-mibile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.payment .content-container .img-content .bridge {
+  background: url(../img/im-bridge-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 673px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .payment .content-container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+  }
+
+  .payment .content-container .text-content {
+    width: 33%;
+  }
+
+  .payment .content-container .img-content {
+    margin-top: 0;
+    width: 65%;
+  }
+
+  
+}
