@@ -1,11 +1,11 @@
 .testimonials .testimonials-container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .testimonials-container {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .testimonials-container .testimonial p {
@@ -15,18 +15,18 @@
 }
 
 .testimonials-container .rating {
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
 }
 
 .testimonials-container .rating img {
-    width: 86px;
-    height: 86px;
+  width: 86px;
+  height: 86px;
 }
 
 .testimonials-container .rating .user-rating {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .testimonials-container .rating .user-rating h3 {
@@ -40,7 +40,7 @@
 }
 
 .testimonials-container .rating .profile-pic {
-    background: url(../img/profile-pic-1.png) no-repeat;
+  background: url(../img/profile-pic-1.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
